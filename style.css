@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  border: thin solid red;
+}
+
+#main {
+  display: grid;
+  grid-template-areas: 'h h h h'
+                       'l c c r'
+                       'l c c r'
+                       'f f f f';
+
+}
+
+#header {
+  grid-area: h;
+}
+
+#lt-menu {
+  grid-area: l;
+}
+
+#content {
+  grid-area: c;
+}
+
+#rt-menu {
+  grid-area: r;
+}
+
+#footer {
+  grid-area: f
+}
